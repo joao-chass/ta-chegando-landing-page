@@ -1,0 +1,26 @@
+.container {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    padding-top: 100px;
+    margin-bottom: 100px;
+    background-color: #F8F9FC;
+}
+
+.textInfoContainer {
+    max-width: 600px;
+}
+
+.textInfo {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ef4762;
+}
+
+.textInfoSub {
+    font-weight: 300; 
+    font-size: 21px;
+}

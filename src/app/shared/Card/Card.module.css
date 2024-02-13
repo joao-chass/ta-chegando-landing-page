@@ -1,0 +1,21 @@
+.cardBody {
+    background-color: whitesmoke;
+    width: 350px;
+    color: black;
+    min-height: 400px;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 3px 4px 2px 1px #27272761;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.subTitulo {
+    font-size: 14px;
+    font-weight: 400;
+}

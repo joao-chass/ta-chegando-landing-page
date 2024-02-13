@@ -1,0 +1,29 @@
+.container {
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        padding: 50px;
+        background-color: #ef4762;
+        color: azure;
+}
+
+
+.fontInfo {
+    font-size: 30px;
+    font-weight: 500;
+    max-width: 800px;
+    text-align: center;
+    display: flex;
+}
+
+.containerCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+}
+
