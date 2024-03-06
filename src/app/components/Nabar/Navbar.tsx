@@ -6,6 +6,7 @@ import { XCircleIcon, Bars2Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import style from './Navbar.module.css'
 import Image from "next/image";
 import logo from '../../../../imagens/logo.png'
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy , scroller} from 'react-scroll';
 
 
 
@@ -46,7 +47,15 @@ export default function Navbar() {
             key={item.id}
             className={style.navBarButton}
           >
+            <Link
+            to={item.text}
+            spy={true}
+            smooth={true}
+            duration={900}
+            activeClass="active"
+          >
             {item.text}
+          </Link>
           </li>
         ))}
       </ul>
