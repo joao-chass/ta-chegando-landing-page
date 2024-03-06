@@ -14,7 +14,6 @@ export default function Home() {
       <HomeSection />
       <AboutSection />
       <MissionSection />
-      <ContactSection />
     </main>
   );
 }

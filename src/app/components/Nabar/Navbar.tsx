@@ -22,9 +22,9 @@ export default function Navbar() {
     const navItems = [
         { id: 1, text: 'Home' },
         { id: 2, text: 'Sobre' },
-        { id: 3, text: 'Suporte' },
-        { id: 4, text: 'Comunidade' },
-        { id: 5, text: 'Avaliações' },
+        // { id: 3, text: 'Suporte' },
+        // { id: 4, text: 'Comunidade' },
+        { id: 5, text: 'APP' },
       ];
   
   return (
