@@ -2,4 +2,37 @@
     position: fixed;
     width: 100%;
     margin-bottom: 60px;
+    background-color: #fff;
+    z-index: 999;
+}
+
+.navBarButton {
+    color: #4A494E;
+    border-radius: 100px;
+    border-color: #4A494E;
+    border-width: 1px;
+    padding: 4px 16px 4px 16px;
+    margin-right: 7px;
+}
+
+.navBarButton:hover {
+    color: #fff;
+    border-radius: 100px;
+    border-color: #4A494E;
+    background-color: #4A494E;
+    border-width: 1px;
+    padding: 4px 16px 4px 16px;
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+.navBarButtonApp {
+    color: #fff;
+    border-radius: 100px;
+    border-color: #E91E62;
+    background-color: #E91E62;
+    border-width: 1px;
+    margin-right: 7px;
+    cursor: pointer;
+    padding: 8px 32px 8px 32px;
 }

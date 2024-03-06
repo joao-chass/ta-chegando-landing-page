@@ -21,10 +21,10 @@ export default function Navbar() {
     // Array containing navigation items
     const navItems = [
         { id: 1, text: 'Home' },
-        { id: 2, text: 'Company' },
-        { id: 3, text: 'Resources' },
-        { id: 4, text: 'About' },
-        { id: 5, text: 'Contact' },
+        { id: 2, text: 'Sobre' },
+        { id: 3, text: 'Suporte' },
+        { id: 4, text: 'Comunidade' },
+        { id: 5, text: 'Avaliações' },
       ];
   
   return (
@@ -44,11 +44,21 @@ export default function Navbar() {
         {navItems.map(item => (
           <li
             key={item.id}
-            className='p-4 hover:bg-[#e74862] rounded-xl m-2 cursor-pointer duration-300 hover:text-white'
+            className={style.navBarButton}
           >
             {item.text}
           </li>
         ))}
+      </ul>
+
+      <ul className='hidden md:flex'>
+     
+          <li
+            className={style.navBarButtonApp}
+          >
+            Baixar o App
+          </li>
+       
       </ul>
 
       {/* Mobile Navigation Icon */}
