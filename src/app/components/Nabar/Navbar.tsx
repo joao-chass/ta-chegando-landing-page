@@ -28,7 +28,7 @@ export default function Navbar() {
       ];
   
   return (
-    <div className={`flex justify-between items-center h-50 mx-auto px-5 text-black ${style.navBarBody}`} >
+    <div className={`flex justify-between items-center h-50 mx-auto px-5 text-white ${style.navBarBody}`} >
       {/* Logo */}
       <Image
       src={logo}

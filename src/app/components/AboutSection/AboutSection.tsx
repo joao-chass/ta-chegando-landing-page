@@ -4,6 +4,7 @@ import Card from '@/app/shared/Card/Card'
 
 function AboutSection() {
   return (
+    <>
     <div className={style.container}>
       
             <div className={style.fontInfo }>Ajudamos pessoas na sua mobilidade pela cidade de maneira eficiente e econômica.</div>
@@ -16,6 +17,9 @@ function AboutSection() {
 
        
     </div>
+
+    
+      </>
   )
 }
 
