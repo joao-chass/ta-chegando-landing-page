@@ -9,14 +9,10 @@ export default class Card extends Component{
         return (
             <div className={style.cardBody}>
 
-                <div className={style.titulo}>
-                        {this.props.titulo}
-                </div>
+              
                  <NewspaperIcon color='pink' width={80} />
 
-                <div className={style.subTitulo}>
-                {this.props.subTitulo}
-                </div>
+               
             </div>
         )
     }
