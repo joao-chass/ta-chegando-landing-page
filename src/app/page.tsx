@@ -28,13 +28,13 @@ export default function Home() {
   return (
     <main>
       <Navbar/>
-      <Element name="Home" name="Home">
+      <Element name="Home" >
       <HomeSection />
       </Element>
-      <Element name="Sobre" name="Sobre">
+      <Element name="Sobre" >
       <AboutSection />
       </Element>
-      <Element name="APP" name="APP">
+      <Element name="APP">
       <MissionSection />
       </Element>
     
